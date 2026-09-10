@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-int fact=1,i ,n;
-printf("Enter any positive number :");
+int fac =1, i,n;
+printf("Enter number:");
 scanf("%d",&n);
-for (i=1; i<=n; i++){ 
-    fact = fact*i ;
+for(i=1;i<=n;i++){
+    fac = fac*i;
 }
-printf("Factorial of %d is %d",n,fact);
+printf("%d factorial is %d ",n,fac);
     return 0;
 }
