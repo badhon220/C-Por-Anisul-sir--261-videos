@@ -14,6 +14,7 @@ switch(op) {
     case '-' : {printf("Difference = %lf", num1-num2);}
     case '*' : {printf("Product = %lf", num1*num2);}
     case '/' : {printf("Quotient = %lf", num1/num2);}
+    default : { printf("Invalid operator");}
 }
 
 
