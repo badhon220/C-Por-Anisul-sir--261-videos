@@ -10,7 +10,7 @@ int main()
 
         for (cul = 1; cul <= row; cul++)
         {
-            printf("%d ", cul);
+            printf("%d ", row);
         }
         printf("\n");
     }
