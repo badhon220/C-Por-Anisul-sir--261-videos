@@ -11,7 +11,7 @@ for(row =n; row>=1; row--){
     for( cul=1;cul<=2*row-1;cul++){
         printf("*");
     }
-    printf("*");
+    printf("\n");
 }
     return 0;
 }
